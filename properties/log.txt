@@ -1,0 +1,5 @@
+WD subject: http://www.wikidata.org/entity/Q3189499DB value: 1.9DB property: http://dbpedia.org/ontology/heightWD property: http://www.wikidata.org/prop/direct/P2048
+WD subject: http://www.wikidata.org/entity/Q54495DB value: 134.0DB property: http://dbpedia.org/ontology/heightWD property: http://www.wikidata.org/prop/direct/P2048
+WD subject: http://www.wikidata.org/entity/Q3189499DB value: 1.9DB property: http://dbpedia.org/ontology/heightWD property: http://www.wikidata.org/prop/direct/P2048
+WD subject: http://www.wikidata.org/entity/Q54495DB value: 134.0DB property: http://dbpedia.org/ontology/heightWD property: http://www.wikidata.org/prop/direct/P2048
+WD subject: http://www.wikidata.org/entity/Q4858938DB value: 1.65DB property: http://dbpedia.org/ontology/heightWD property: http://www.wikidata.org/prop/direct/P2048

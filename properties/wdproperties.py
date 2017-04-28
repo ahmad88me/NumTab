@@ -1,0 +1,1 @@
+wd_props = {"http://dbpedia.org/ontology/height": "http://www.wikidata.org/prop/direct/P2048"}#, "http://dbpedia.org/ontology/runtime": "http://www.wikidata.org/prop/direct/P2047", "http://dbpedia.org/ontology/elevation": "http://www.wikidata.org/prop/direct/P2044"}
