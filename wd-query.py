@@ -25,7 +25,7 @@ def get_classes_with_numbers(prop):
 			?item <%s> ?value .
 		  	?item wdt:P31 ?class .
 		} GROUP BY (?class)
-		HAVING (?count > 100 && ?count < 5000) LIMIT 10
+		HAVING (?count > 100 && ?count < 5000) #LIMIT 10
 	""" % prop
 	try:
 		wd_results = requests.get(wd_url, params={'query': query, 'format': 'json'}).json()
@@ -37,15 +37,16 @@ def get_classes_with_numbers(prop):
 
 # REMOVE LIMIT 10 !!!
 def get_item_triples_for_class_and_property(cl, prop):
+	#use wdt instead of 
 	query = """
-		SELECT ?item ?prop ?object
+		SELECT DISTINCT ?item ?prop ?object
 		WHERE
 		{
 		    ?item ?prop ?object .
 		  	?item <%s> ?value .
 			?item wdt:P31 <%s> .
 		    FILTER( regex(str(?prop), "wikidata.org" ))
-		} LIMIT 10
+		} #LIMIT 10
 	""" % (prop, cl)
 	try:
 		wd_results = requests.get(wd_url, params={'query': query, 'format': 'json'}).json()

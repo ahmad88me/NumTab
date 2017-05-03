@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from properties.wdproperties import wd_props
 wdquery = __import__("wd-query")
 datastruct = __import__("data-structure")
@@ -12,5 +14,8 @@ for db_p, wd_p in wd_props.iteritems():
 	# classes limited to 10 in wd-query!!!
 	classes = wdquery.get_classes_with_numbers(wd_p)
 	for class_result in classes['results']['bindings']:
-		triples = wdquery.get_item_triples_for_class_and_property(class_result['class']['value'], wd_p)
-		datastruct.make_dict(triples)
+		class_wd = class_result['class']['value']
+		triples = wdquery.get_item_triples_for_class_and_property(class_wd, wd_p)
+		#print 'class: ' + class_result['class']['value']
+		print 'proeprty: ' + wd_p
+		datastruct.make_dict(triples, class_wd, wd_p, db_p)
