@@ -1,14 +1,17 @@
 from SPARQLWrapper import SPARQLWrapper, JSON
 import requests
-
+import re
 import pandas as pd
+from collections import defaultdict
 
 dbsparql = SPARQLWrapper('http://dbpedia.org/sparql')
 wd_url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql'
 properties_file_path = '/Users/admin/code/csv2rdf/dataset/golden-wikidata/properties/properties.csv'
 
-log_file = open('properties/log.txt', 'a+')
-wd_properties_file = open('properties/wd-properties.py', 'a+')
+log_file = open('../properties/log.txt', 'a+')
+wd_properties_file = open('../properties/wd-properties.py', 'a+')
+
+numerical_dict = open('numerical-dump.txt').read()
 
 # read the properties.csv file by bob
 #returns a list of properties
@@ -19,6 +22,15 @@ def get_db_properties():
 # get properties from Wikidata connecting given subject and object
 #returns a dict with values for p
 def get_wd_properties(s, o):
+	key = s + '+' + o
+	result = numerical_dict[key]
+	print result
+	return result
+	#triple_regex = s + ' (.?)* ' + o
+	#match = triple_regex in numerical_dump
+	#print match + '\n' + match.split()[1]
+	#return match.split()[1]
+	'''
 	query = 'SELECT ?p WHERE { <' + s + '> ?p ' + o + ' . FILTER (!regex(STR(?p), "wikiba.se")) }'
 	try:
 		wd_results = requests.get(wd_url, params={'query': query, 'format': 'json'}).json()
@@ -27,6 +39,7 @@ def get_wd_properties(s, o):
 	except Exception as e:
 		print e
 		return
+	'''
 
 # get subjects and objects for a given predicate
 # returns a dict with values for wd and o
@@ -60,9 +73,9 @@ def get_mappings():
 			for result in results['results']['bindings']:
 				if counter_mapped < 10:
 					wd_results = get_wd_properties(result['wd']['value'], result['o']['value'])
-					if wd_results['results']['bindings']:
+					if wd_results:
 						counter_mapped += 1
-						for wd_result in wd_results['results']['bindings']:
+						for wd_result in wd_results:
 							print 'test'
 							log_file.write('WD subject: ' + result['wd']['value'] + 'DB value: ' + result['o']['value'] + 'DB property: ' + prop + 'WD property: ' + wd_result['p']['value'] + '\n')
 							wd_properties_file.write('"' + prop + '": "' + wd_result['p']['value'] + '", ')
