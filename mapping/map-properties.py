@@ -2,6 +2,7 @@ from SPARQLWrapper import SPARQLWrapper, JSON
 import requests
 import re
 import pandas as pd
+import json
 from collections import defaultdict
 
 dbsparql = SPARQLWrapper('http://dbpedia.org/sparql')
@@ -11,7 +12,7 @@ properties_file_path = '/Users/admin/code/csv2rdf/dataset/golden-wikidata/proper
 log_file = open('../properties/log.txt', 'a+')
 wd_properties_file = open('../properties/wd-properties.py', 'a+')
 
-numerical_dict = open('numerical-dump.txt').read()
+numerical_dict = json.loads(open('numerical-dump-2.txt').read())
 
 # read the properties.csv file by bob
 #returns a list of properties
