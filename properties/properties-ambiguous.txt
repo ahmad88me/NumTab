@@ -1,0 +1,9 @@
+{"http://dbpedia.org/ontology/foundingYear":"P571",
+"http://dbpedia.org/ontology/yearOfConstruction":"P571",
+"http://dbpedia.org/ontology/openingYear":"P571",
+"http://dbpedia.org/ontology/formationYear":"P571",
+"http://dbpedia.org/ontology/areaTotal":"P2046",
+"http://dbpedia.org/ontology/areaLand":"P2046",
+"http://dbpedia.org/ontology/area":"P2046",
+"http://dbpedia.org/ontology/squadNumber:"P1618",
+"http://dbpedia.org/ontology/number":"P1618"}

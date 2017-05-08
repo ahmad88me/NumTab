@@ -12,7 +12,7 @@ properties_file_path = '/Users/admin/code/csv2rdf/dataset/golden-wikidata/proper
 log_file = open('../properties/log.txt', 'a+')
 wd_properties_file = open('../properties/wd-properties.py', 'a+')
 
-numerical_dict = json.loads(open('numerical-dump-2.txt').read())
+numerical_dict = defaultdict(list, json.loads(open('numerical-dump-2.txt').read()))
 
 # read the properties.csv file by bob
 #returns a list of properties
@@ -78,8 +78,8 @@ def get_mappings():
 						counter_mapped += 1
 						for wd_result in wd_results:
 							print 'test'
-							log_file.write('WD subject: ' + result['wd']['value'] + 'DB value: ' + result['o']['value'] + 'DB property: ' + prop + 'WD property: ' + wd_result['p']['value'] + '\n')
-							wd_properties_file.write('"' + prop + '": "' + wd_result['p']['value'] + '", ')
+							log_file.write('WD subject: ' + result['wd']['value'] + 'DB value: ' + result['o']['value'] + 'DB property: ' + prop + 'WD property: ' + wd_result + '\n')
+							wd_properties_file.write('"' + prop + '": "' + wd_result + '", ')
 	wd_properties_file.write('}')
 
 if __name__ == "__main__":

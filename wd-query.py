@@ -16,16 +16,17 @@ def get_wd_properties(s, o):
 
 # get all 'instance of' classes for the items connected to a given properties
 # must be at least 100 items per class
-# limit to max of 500 items otherwise hell breaks loose
+# limit to max of 5000 items otherwise hell breaks loose
+# limit to 20 classes
 def get_classes_with_numbers(prop):
 	query = """
 		SELECT ?class (COUNT(?item) AS ?count)
 		WHERE
 		{
-			?item <%s> ?value .
+			?item wdt:%s ?value .
 		  	?item wdt:P31 ?class .
 		} GROUP BY (?class)
-		HAVING (?count > 100 && ?count < 5000) #LIMIT 10
+		HAVING (?count > 100 && ?count < 5000) LIMIT 20
 	""" % prop
 	try:
 		wd_results = requests.get(wd_url, params={'query': query, 'format': 'json'}).json()
@@ -43,7 +44,7 @@ def get_item_triples_for_class_and_property(cl, prop):
 		WHERE
 		{
 		    ?item ?prop ?object .
-		  	?item <%s> ?value .
+		  	?item wdt:%s ?value .
 			?item wdt:P31 <%s> .
 		    FILTER( regex(str(?prop), "wikidata.org" ))
 		} #LIMIT 10

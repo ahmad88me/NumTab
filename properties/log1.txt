@@ -1,12 +1,3 @@
-WDsubject: http://www.wikidata.org/entity/Q4858938 DBvalue: 1.65 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q242315 DBvalue: 1.65 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q7421741 DBvalue: 1.71 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q5071541 DBvalue: 1.65 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q640193 DBvalue: 1.67 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q175307 DBvalue: 1.83 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q1452755 DBvalue: 1.77 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q1604334 DBvalue: 5.47 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
-WDsubject: http://www.wikidata.org/entity/Q17296474 DBvalue: 1.72 DBproperty: http://dbpedia.org/ontology/height WDproperty: http://www.wikidata.org/prop/direct/P2048
 WDsubject: http://www.wikidata.org/entity/Q2300985 DBvalue: 10 DBproperty: http://dbpedia.org/ontology/numberOfGoals WDproperty: http://www.wikidata.org/prop/direct/P1132
 WDsubject: http://www.wikidata.org/entity/Q261156 DBvalue: 80 DBproperty: http://dbpedia.org/ontology/numberOfGoals WDproperty: http://www.wikidata.org/prop/direct/P1351
 WDsubject: http://www.wikidata.org/entity/Q222049 DBvalue: 32 DBproperty: http://dbpedia.org/ontology/numberOfGoals WDproperty: http://www.wikidata.org/prop/direct/P1350
@@ -16,6 +7,7 @@ WDsubject: http://www.wikidata.org/entity/Q1067559 DBvalue: 32 DBproperty: http:
 WDsubject: http://www.wikidata.org/entity/Q610894 DBvalue: 24 DBproperty: http://dbpedia.org/ontology/numberOfGoals WDproperty: http://www.wikidata.org/prop/direct/P1132
 WDsubject: http://www.wikidata.org/entity/Q610894 DBvalue: 52 DBproperty: http://dbpedia.org/ontology/numberOfGoals WDproperty: http://www.wikidata.org/prop/direct/P1350
 WDsubject: http://www.wikidata.org/entity/Q4607890 DBvalue: 7 DBproperty: http://dbpedia.org/ontology/numberOfGoals WDproperty: http://www.wikidata.org/prop/direct/P1132
+
 WDsubject: http://www.wikidata.org/entity/Q41819 DBvalue: 459787 DBproperty: http://dbpedia.org/ontology/populationTotal WDproperty: http://www.wikidata.org/prop/direct/P1082
 WDsubject: http://www.wikidata.org/entity/Q236713 DBvalue: 26091 DBproperty: http://dbpedia.org/ontology/populationTotal WDproperty: http://www.wikidata.org/prop/direct/P1082
 WDsubject: http://www.wikidata.org/entity/Q2327553 DBvalue: 8616 DBproperty: http://dbpedia.org/ontology/populationTotal WDproperty: http://www.wikidata.org/prop/direct/P1082
@@ -26,6 +18,7 @@ WDsubject: http://www.wikidata.org/entity/Q3561 DBvalue: 3415811 DBproperty: htt
 WDsubject: http://www.wikidata.org/entity/Q470273 DBvalue: 58965 DBproperty: http://dbpedia.org/ontology/populationTotal WDproperty: http://www.wikidata.org/prop/direct/P1082
 WDsubject: http://www.wikidata.org/entity/Q2488496 DBvalue: 255 DBproperty: http://dbpedia.org/ontology/populationTotal WDproperty: http://www.wikidata.org/prop/direct/P1082
 WDsubject: http://www.wikidata.org/entity/Q485172 DBvalue: 113934 DBproperty: http://dbpedia.org/ontology/populationTotal WDproperty: http://www.wikidata.org/prop/direct/P1082
+
 WDsubject: http://www.wikidata.org/entity/Q893055 DBvalue: 1015.9 DBproperty: http://dbpedia.org/ontology/elevation WDproperty: http://www.wikidata.org/prop/direct/P2044
 WDsubject: http://www.wikidata.org/entity/Q893055 DBvalue: 1015.9 DBproperty: http://dbpedia.org/ontology/elevation WDproperty: http://www.wikidata.org/prop/direct/P2044
 WDsubject: http://www.wikidata.org/entity/Q171224 DBvalue: 131.1 DBproperty: http://dbpedia.org/ontology/elevation WDproperty: http://www.wikidata.org/prop/direct/P2044
@@ -36,6 +29,7 @@ WDsubject: http://www.wikidata.org/entity/Q81213 DBvalue: 2654.4 DBproperty: htt
 WDsubject: http://www.wikidata.org/entity/Q696067 DBvalue: 2224.0 DBproperty: http://dbpedia.org/ontology/elevation WDproperty: http://www.wikidata.org/prop/direct/P2044
 WDsubject: http://www.wikidata.org/entity/Q561875 DBvalue: 841.9 DBproperty: http://dbpedia.org/ontology/elevation WDproperty: http://www.wikidata.org/prop/direct/P2044
 WDsubject: http://www.wikidata.org/entity/Q1478715 DBvalue: 592.5 DBproperty: http://dbpedia.org/ontology/elevation WDproperty: http://www.wikidata.org/prop/direct/P2044
+
 WDsubject: http://www.wikidata.org/entity/Q14274 DBvalue: 5000 DBproperty: http://dbpedia.org/ontology/postalCode WDproperty: http://www.wikidata.org/prop/direct/P281
 WDsubject: http://www.wikidata.org/entity/Q255698 DBvalue: 93326 DBproperty: http://dbpedia.org/ontology/postalCode WDproperty: http://www.wikidata.org/prop/direct/P281
 WDsubject: http://www.wikidata.org/entity/Q319369 DBvalue: CF44 DBproperty: http://dbpedia.org/ontology/postalCode WDproperty: http://www.wikidata.org/prop/direct/P281
@@ -46,6 +40,7 @@ WDsubject: http://www.wikidata.org/entity/Q2272537 DBvalue: NP13 DBproperty: htt
 WDsubject: http://www.wikidata.org/entity/Q1622949 DBvalue: BB5 DBproperty: http://dbpedia.org/ontology/postalCode WDproperty: http://www.wikidata.org/prop/direct/P281
 WDsubject: http://www.wikidata.org/entity/Q40104 DBvalue: 20000 DBproperty: http://dbpedia.org/ontology/postalCode WDproperty: http://www.wikidata.org/prop/direct/P281
 WDsubject: http://www.wikidata.org/entity/Q2327553 DBvalue: 49224 DBproperty: http://dbpedia.org/ontology/postalCode WDproperty: http://www.wikidata.org/prop/direct/P281
+
 WDsubject: http://www.wikidata.org/entity/Q255698 DBvalue: 09443 DBproperty: http://dbpedia.org/ontology/areaCode WDproperty: http://www.wikidata.org/prop/direct/P473
 WDsubject: http://www.wikidata.org/entity/Q319369 DBvalue: 01685 DBproperty: http://dbpedia.org/ontology/areaCode WDproperty: http://www.wikidata.org/prop/direct/P473
 WDsubject: http://www.wikidata.org/entity/Q236713 DBvalue: 605 DBproperty: http://dbpedia.org/ontology/areaCode WDproperty: http://www.wikidata.org/prop/direct/P473
@@ -56,6 +51,7 @@ WDsubject: http://www.wikidata.org/entity/Q2327553 DBvalue: 517 DBproperty: http
 WDsubject: http://www.wikidata.org/entity/Q521651 DBvalue: 765 DBproperty: http://dbpedia.org/ontology/areaCode WDproperty: http://www.wikidata.org/prop/direct/P473
 WDsubject: http://www.wikidata.org/entity/Q985351 DBvalue: 318 DBproperty: http://dbpedia.org/ontology/areaCode WDproperty: http://www.wikidata.org/prop/direct/P473
 WDsubject: http://www.wikidata.org/entity/Q2488496 DBvalue: 229 DBproperty: http://dbpedia.org/ontology/areaCode WDproperty: http://www.wikidata.org/prop/direct/P473
+
 WDsubject: http://www.wikidata.org/entity/Q983821 DBvalue: 1.64 DBproperty: http://dbpedia.org/ontology/length WDproperty: http://www.wikidata.org/prop/direct/P2043
 WDsubject: http://www.wikidata.org/entity/Q995226 DBvalue: 4.9 DBproperty: http://dbpedia.org/ontology/length WDproperty: http://www.wikidata.org/prop/direct/P2043
 WDsubject: http://www.wikidata.org/entity/Q2615876 DBvalue: 62.7 DBproperty: http://dbpedia.org/ontology/length WDproperty: http://www.wikidata.org/prop/direct/P2043
@@ -66,6 +62,7 @@ WDsubject: http://www.wikidata.org/entity/Q5635921 DBvalue: 58.4 DBproperty: htt
 WDsubject: http://www.wikidata.org/entity/Q3353494 DBvalue: 178.4 DBproperty: http://dbpedia.org/ontology/length WDproperty: http://www.wikidata.org/prop/direct/P2043
 WDsubject: http://www.wikidata.org/entity/Q4833112 DBvalue: 322.22 DBproperty: http://dbpedia.org/ontology/length WDproperty: http://www.wikidata.org/prop/direct/P2043
 WDsubject: http://www.wikidata.org/entity/Q1372951 DBvalue: 20.9 DBproperty: http://dbpedia.org/ontology/length WDproperty: http://www.wikidata.org/prop/direct/P2043
+
 WDsubject: http://www.wikidata.org/entity/Q977383 DBvalue: 15 DBproperty: http://dbpedia.org/ontology/number WDproperty: http://www.wikidata.org/prop/direct/P1618
 WDsubject: http://www.wikidata.org/entity/Q936583 DBvalue: 7 DBproperty: http://dbpedia.org/ontology/number WDproperty: http://www.wikidata.org/prop/direct/P1618
 WDsubject: http://www.wikidata.org/entity/Q510123 DBvalue: 7 DBproperty: http://dbpedia.org/ontology/number WDproperty: http://www.wikidata.org/prop/direct/P1618
@@ -76,12 +73,14 @@ WDsubject: http://www.wikidata.org/entity/Q7351716 DBvalue: 31 DBproperty: http:
 WDsubject: http://www.wikidata.org/entity/Q457527 DBvalue: 16 DBproperty: http://dbpedia.org/ontology/number WDproperty: http://www.wikidata.org/prop/direct/P1618
 WDsubject: http://www.wikidata.org/entity/Q7351831 DBvalue: 15 DBproperty: http://dbpedia.org/ontology/number WDproperty: http://www.wikidata.org/prop/direct/P1618
 WDsubject: http://www.wikidata.org/entity/Q7357330 DBvalue: 10 DBproperty: http://dbpedia.org/ontology/number WDproperty: http://www.wikidata.org/prop/direct/P1618
+
 WDsubject: http://www.wikidata.org/entity/Q49088 DBvalue: 27942 DBproperty: http://dbpedia.org/ontology/numberOfStudents WDproperty: http://www.wikidata.org/prop/direct/P2196
 WDsubject: http://www.wikidata.org/entity/Q4219242 DBvalue: 21000 DBproperty: http://dbpedia.org/ontology/numberOfStudents WDproperty: http://www.wikidata.org/prop/direct/P2196
 WDsubject: http://www.wikidata.org/entity/Q15222529 DBvalue: 420 DBproperty: http://dbpedia.org/ontology/numberOfStudents WDproperty: http://www.wikidata.org/prop/direct/P2196
 WDsubject: http://www.wikidata.org/entity/Q188370 DBvalue: 12002 DBproperty: http://dbpedia.org/ontology/numberOfStudents WDproperty: http://www.wikidata.org/prop/direct/P2196
 WDsubject: http://www.wikidata.org/entity/Q1432645 DBvalue: 1122 DBproperty: http://dbpedia.org/ontology/numberOfStudents WDproperty: http://www.wikidata.org/prop/direct/P2196
 WDsubject: http://www.wikidata.org/entity/Q2934696 DBvalue: 420 DBproperty: http://dbpedia.org/ontology/numberOfStudents WDproperty: http://www.wikidata.org/prop/direct/P2196
+
 WDsubject: http://www.wikidata.org/entity/Q9024245 DBvalue: 21 DBproperty: http://dbpedia.org/ontology/numberOfEpisodes WDproperty: http://www.wikidata.org/prop/direct/P1113
 WDsubject: http://www.wikidata.org/entity/Q244803 DBvalue: 112 DBproperty: http://dbpedia.org/ontology/numberOfEpisodes WDproperty: http://www.wikidata.org/prop/direct/P1113
 WDsubject: http://www.wikidata.org/entity/Q210146 DBvalue: 110 DBproperty: http://dbpedia.org/ontology/numberOfEpisodes WDproperty: http://www.wikidata.org/prop/direct/P1113
@@ -92,6 +91,7 @@ WDsubject: http://www.wikidata.org/entity/Q1366945 DBvalue: 25 DBproperty: http:
 WDsubject: http://www.wikidata.org/entity/Q212731 DBvalue: 12 DBproperty: http://dbpedia.org/ontology/numberOfEpisodes WDproperty: http://www.wikidata.org/prop/direct/P1113
 WDsubject: http://www.wikidata.org/entity/Q2514914 DBvalue: 39 DBproperty: http://dbpedia.org/ontology/numberOfEpisodes WDproperty: http://www.wikidata.org/prop/direct/P1113
 WDsubject: http://www.wikidata.org/entity/Q209282 DBvalue: 264 DBproperty: http://dbpedia.org/ontology/numberOfEpisodes WDproperty: http://www.wikidata.org/prop/direct/P1113
+
 WDsubject: http://www.wikidata.org/entity/Q2615876 DBvalue: 10.9 DBproperty: http://dbpedia.org/ontology/shipBeam WDproperty: http://www.wikidata.org/prop/direct/P2049
 WDsubject: http://www.wikidata.org/entity/Q5631597 DBvalue: 5.8 DBproperty: http://dbpedia.org/ontology/shipBeam WDproperty: http://www.wikidata.org/prop/direct/P2261
 WDsubject: http://www.wikidata.org/entity/Q4442824 DBvalue: 7.1 DBproperty: http://dbpedia.org/ontology/shipBeam WDproperty: http://www.wikidata.org/prop/direct/P2049
@@ -102,6 +102,7 @@ WDsubject: http://www.wikidata.org/entity/Q453570 DBvalue: 28.9 DBproperty: http
 WDsubject: http://www.wikidata.org/entity/Q7391601 DBvalue: 6.2 DBproperty: http://dbpedia.org/ontology/shipBeam WDproperty: http://www.wikidata.org/prop/direct/P2261
 WDsubject: http://www.wikidata.org/entity/Q5502184 DBvalue: 11.24 DBproperty: http://dbpedia.org/ontology/shipBeam WDproperty: http://www.wikidata.org/prop/direct/P2261
 WDsubject: http://www.wikidata.org/entity/Q5634430 DBvalue: 16.1 DBproperty: http://dbpedia.org/ontology/shipBeam WDproperty: http://www.wikidata.org/prop/direct/P2261
+
 WDsubject: http://www.wikidata.org/entity/Q1396889 DBvalue: 112 DBproperty: http://dbpedia.org/ontology/numberOfPages WDproperty: http://www.wikidata.org/prop/direct/P1104
 WDsubject: http://www.wikidata.org/entity/Q4765006 DBvalue: 32 DBproperty: http://dbpedia.org/ontology/numberOfPages WDproperty: http://www.wikidata.org/prop/direct/P1104
 WDsubject: http://www.wikidata.org/entity/Q625764 DBvalue: 446 DBproperty: http://dbpedia.org/ontology/numberOfPages WDproperty: http://www.wikidata.org/prop/direct/P1104
@@ -112,7 +113,9 @@ WDsubject: http://www.wikidata.org/entity/Q641423 DBvalue: 198 DBproperty: http:
 WDsubject: http://www.wikidata.org/entity/Q18358743 DBvalue: 432 DBproperty: http://dbpedia.org/ontology/numberOfPages WDproperty: http://www.wikidata.org/prop/direct/P1104
 WDsubject: http://www.wikidata.org/entity/Q7490693 DBvalue: 183 DBproperty: http://dbpedia.org/ontology/numberOfPages WDproperty: http://www.wikidata.org/prop/direct/P304
 WDsubject: http://www.wikidata.org/entity/Q849308 DBvalue: 1200 DBproperty: http://dbpedia.org/ontology/numberOfPages WDproperty: http://www.wikidata.org/prop/direct/P1104
+
 WDsubject: http://www.wikidata.org/entity/Q4718556 DBvalue: 1999 DBproperty: http://dbpedia.org/ontology/draftYear WDproperty: http://www.wikidata.org/prop/direct/P2481
+
 WDsubject: http://www.wikidata.org/entity/Q27585 DBvalue: 5600 DBproperty: http://dbpedia.org/ontology/numberOfEmployees WDproperty: http://www.wikidata.org/prop/direct/P1128
 WDsubject: http://www.wikidata.org/entity/Q465666 DBvalue: 3160 DBproperty: http://dbpedia.org/ontology/numberOfEmployees WDproperty: http://www.wikidata.org/prop/direct/P1128
 WDsubject: http://www.wikidata.org/entity/Q27074 DBvalue: 1250 DBproperty: http://dbpedia.org/ontology/numberOfEmployees WDproperty: http://www.wikidata.org/prop/direct/P1128
@@ -123,6 +126,7 @@ WDsubject: http://www.wikidata.org/entity/Q8093 DBvalue: 5120 DBproperty: http:/
 WDsubject: http://www.wikidata.org/entity/Q762392 DBvalue: 43 DBproperty: http://dbpedia.org/ontology/numberOfEmployees WDproperty: http://www.wikidata.org/prop/direct/P1128
 WDsubject: http://www.wikidata.org/entity/Q4882981 DBvalue: 500 DBproperty: http://dbpedia.org/ontology/numberOfEmployees WDproperty: http://www.wikidata.org/prop/direct/P1128
 WDsubject: http://www.wikidata.org/entity/Q1230783 DBvalue: 450 DBproperty: http://dbpedia.org/ontology/numberOfEmployees WDproperty: http://www.wikidata.org/prop/direct/P1128
+
 WDsubject: http://www.wikidata.org/entity/Q1771810 DBvalue: 1210 DBproperty: http://dbpedia.org/ontology/oclc WDproperty: http://www.wikidata.org/prop/direct/P243
 WDsubject: http://www.wikidata.org/entity/Q215410 DBvalue: 29489461 DBproperty: http://dbpedia.org/ontology/oclc WDproperty: http://www.wikidata.org/prop/direct/P243
 WDsubject: http://www.wikidata.org/entity/Q4724371 DBvalue: 405716627 DBproperty: http://dbpedia.org/ontology/oclc WDproperty: http://www.wikidata.org/prop/direct/P243
@@ -133,6 +137,7 @@ WDsubject: http://www.wikidata.org/entity/Q5163940 DBvalue: 30590774 DBproperty:
 WDsubject: http://www.wikidata.org/entity/Q1093988 DBvalue: 797233 DBproperty: http://dbpedia.org/ontology/oclc WDproperty: http://www.wikidata.org/prop/direct/P243
 WDsubject: http://www.wikidata.org/entity/Q725569 DBvalue: 34925327 DBproperty: http://dbpedia.org/ontology/oclc WDproperty: http://www.wikidata.org/prop/direct/P243
 WDsubject: http://www.wikidata.org/entity/Q605249 DBvalue: 34818133 DBproperty: http://dbpedia.org/ontology/oclc WDproperty: http://www.wikidata.org/prop/direct/P243
+
 WDsubject: http://www.wikidata.org/entity/Q368186 DBvalue: 8 DBproperty: http://dbpedia.org/ontology/routeNumber WDproperty: http://www.wikidata.org/prop/direct/P1824
 WDsubject: http://www.wikidata.org/entity/Q2872869 DBvalue: 540 DBproperty: http://dbpedia.org/ontology/routeNumber WDproperty: http://www.wikidata.org/prop/direct/P1824
 WDsubject: http://www.wikidata.org/entity/Q4121691 DBvalue: 1 DBproperty: http://dbpedia.org/ontology/routeNumber WDproperty: http://www.wikidata.org/prop/direct/P1824
@@ -143,6 +148,7 @@ WDsubject: http://www.wikidata.org/entity/Q2006658 DBvalue: 4 DBproperty: http:/
 WDsubject: http://www.wikidata.org/entity/Q6157485 DBvalue: 413 DBproperty: http://dbpedia.org/ontology/routeNumber WDproperty: http://www.wikidata.org/prop/direct/P1824
 WDsubject: http://www.wikidata.org/entity/Q11421460 DBvalue: 412 DBproperty: http://dbpedia.org/ontology/routeNumber WDproperty: http://www.wikidata.org/prop/direct/P1824
 WDsubject: http://www.wikidata.org/entity/Q6156764 DBvalue: 129 DBproperty: http://dbpedia.org/ontology/routeNumber WDproperty: http://www.wikidata.org/prop/direct/P1824
+
 WDsubject: http://www.wikidata.org/entity/Q9024245 DBvalue: 2 DBproperty: http://dbpedia.org/ontology/numberOfSeasons WDproperty: http://www.wikidata.org/prop/direct/P2437
 WDsubject: http://www.wikidata.org/entity/Q244803 DBvalue: 5 DBproperty: http://dbpedia.org/ontology/numberOfSeasons WDproperty: http://www.wikidata.org/prop/direct/P2437
 WDsubject: http://www.wikidata.org/entity/Q210146 DBvalue: 5 DBproperty: http://dbpedia.org/ontology/numberOfSeasons WDproperty: http://www.wikidata.org/prop/direct/P2437
@@ -153,7 +159,9 @@ WDsubject: http://www.wikidata.org/entity/Q732063 DBvalue: 11 DBproperty: http:/
 WDsubject: http://www.wikidata.org/entity/Q613171 DBvalue: 2 DBproperty: http://dbpedia.org/ontology/numberOfSeasons WDproperty: http://www.wikidata.org/prop/direct/P2437
 WDsubject: http://www.wikidata.org/entity/Q1366945 DBvalue: 3 DBproperty: http://dbpedia.org/ontology/numberOfSeasons WDproperty: http://www.wikidata.org/prop/direct/P2437
 WDsubject: http://www.wikidata.org/entity/Q212731 DBvalue: 2 DBproperty: http://dbpedia.org/ontology/numberOfSeasons WDproperty: http://www.wikidata.org/prop/direct/P2437
+
 WDsubject: http://www.wikidata.org/entity/Q5060518 DBvalue: 3603811.23 DBproperty: http://dbpedia.org/ontology/budget WDproperty: http://www.wikidata.org/prop/direct/P2769
+
 WDsubject: http://www.wikidata.org/entity/Q579931 DBvalue: 15000 DBproperty: http://dbpedia.org/ontology/capacity WDproperty: http://www.wikidata.org/prop/direct/P1083
 WDsubject: http://www.wikidata.org/entity/Q5327751 DBvalue: 5000 DBproperty: http://dbpedia.org/ontology/capacity WDproperty: http://www.wikidata.org/prop/direct/P1083
 WDsubject: http://www.wikidata.org/entity/Q222157 DBvalue: 3500 DBproperty: http://dbpedia.org/ontology/capacity WDproperty: http://www.wikidata.org/prop/direct/P1083
@@ -164,6 +172,7 @@ WDsubject: http://www.wikidata.org/entity/Q18311 DBvalue: 2000 DBproperty: http:
 WDsubject: http://www.wikidata.org/entity/Q2857967 DBvalue: 8000 DBproperty: http://dbpedia.org/ontology/capacity WDproperty: http://www.wikidata.org/prop/direct/P1083
 WDsubject: http://www.wikidata.org/entity/Q695939 DBvalue: 15000 DBproperty: http://dbpedia.org/ontology/capacity WDproperty: http://www.wikidata.org/prop/direct/P1083
 WDsubject: http://www.wikidata.org/entity/Q1050268 DBvalue: 3500 DBproperty: http://dbpedia.org/ontology/capacity WDproperty: http://www.wikidata.org/prop/direct/P1083
+
 WDsubject: http://www.wikidata.org/entity/Q995226 DBvalue: 2.2 DBproperty: http://dbpedia.org/ontology/width WDproperty: http://www.wikidata.org/prop/direct/P2049
 WDsubject: http://www.wikidata.org/entity/Q1604334 DBvalue: 7.2 DBproperty: http://dbpedia.org/ontology/width WDproperty: http://www.wikidata.org/prop/direct/P2049
 WDsubject: http://www.wikidata.org/entity/Q4340588 DBvalue: 2.1 DBproperty: http://dbpedia.org/ontology/width WDproperty: http://www.wikidata.org/prop/direct/P2049

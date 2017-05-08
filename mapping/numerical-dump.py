@@ -15,12 +15,16 @@ with bz2.BZ2File(dump_path, "r") as file:
 		for x in range(3, len(triple)):
 			triple[2] += ' ' + triple[x]
 		#print triple[2]
-		if '"' in triple [2] and not triple[2].startswith('<http') and bool(re.search(r'\d', triple[2])) and not re.match( '"(.*?)"\@(.*?) .', triple[2]):
+		if 'P' in triple[1] and '"' in triple [2] and not triple[2].startswith('<http') and bool(re.search(r'\d', triple[2])) and not re.match( '"(.*?)"\@(.*?) .', triple[2]):
 			#print triple[2].split('"')[1].replace('+','')
 			#print triple[2]
 			#print triple[1].replace('<','').replace('>','')
 			#numerical_dump.write(triple[0].replace('<','').replace('>','') + ' ' + triple[1].replace('<','').replace('>','') + ' ' + triple[2].split('"')[1].replace('+','') + '\n')
-			key = triple[0].replace('<','').replace('>','') + '+' + triple[2].split('"')[1].replace('+','')
+			triple[2] = triple[2].split('"')[1].replace('+','')
+			# for dates like 2017-03-03T06:36:48Z
+			if 'Z' in triple[2]:
+				triple[2] = triple[2][:4]
+			key = triple[0].replace('<','').replace('>','') + '+' + triple[2]
 			if not key in numerical_dict:
 				numerical_dict[key] = [triple[1].replace('<','').replace('>','')]
 			else:
