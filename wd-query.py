@@ -25,6 +25,7 @@ def get_classes_with_numbers(prop):
 		{
 			?item wdt:%s ?value .
 		  	?item wdt:P31 ?class .
+		  	FILTER( !regex(str(?value), "entity" ))
 		} GROUP BY (?class)
 		HAVING (?count > 100 && ?count < 5000) LIMIT 20
 	""" % prop
@@ -46,6 +47,7 @@ def get_item_triples_for_class_and_property(cl, prop):
 		    ?item ?prop ?object .
 		  	?item wdt:%s ?value .
 			?item wdt:P31 <%s> .
+			FILTER( !regex(str(?value), "entity" ))
 		    FILTER( regex(str(?prop), "wikidata.org" ))
 		} #LIMIT 10
 	""" % (prop, cl)
