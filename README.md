@@ -49,15 +49,25 @@ The created files can be found in **gold/numtab.txt**, where each DBpedia proper
 
 ## Using the code
 
-The very unrefactored code to create a dataset for numerical values of Wikidata, based on 50 given DBpedia properties. 
-- **map-properties.py** maps DBpedia properties to Wikidata, assumes Wikidata and DBpedia share a set of triples. It reads from *properties.csv* and writes the mapping to *wdproperties.py*
-- **make-dataset.py** creates the dataset (in theory). Using **wd-query.py** it calls the Wikidata endpoint to get classes used by items using the Wikidata properties in *wdproperties.py*. The resulting triples are passed to *data-structure.py*, which sorts them by property-object pairs to limit the possible triples to 50. **create-json.py** will write the resulting dataset and its annotation to a json file that can be used.
+Mapping and generation of Numtab can be run independently.
 
-The two scripts (map-properties and make-dataset) can be run independently. 
+### Mapping
+*The mapping takes approximately 80 GB of memory (since the dump is loaded in memory) and 10 GB for the file created.*
+In order to do the mapping more efficently, we create a dump that's purely numerical with the script **mapping/numerical-dump.py**. You will need to download a *.nt.bz2* file, containing a [Wikidata dump provided by Wikimedia](https://dumps.wikimedia.org/wikidatawiki/). The created text file will contain a python dictonary with a version of the triples, that have numerical objects. Based on that **mapping/map-properties.py** maps DBpedia properties to Wikidata, assumes Wikidata and DBpedia share a set of triples. It reads from *properties.csv* and writes the mapping to *wdproperties.py*
 
-Two files are created from Wikidata dumps. In order to run **map-properties.py** with the way of creating a dump with only numerical values as in **numerical-dump.py** 80 GB of RAM are needed. (The dump created is still 10GB and is loaded in memory)
+tl;dr
+- Download Wikidata *.nt.bz2* dump from [here](https://dumps.wikimedia.org/wikidatawiki/)
+- run numerical-dump.py (careful, will eat lots of memory)
+- run map-properties.py (careful, will eat lots of memory)
+- currently writes to *properties/wd-properties.py* and *properties/log.txt* in a very bad format, adjust this file so it looks like *properties-unambigious.txt* (we used the log file to adjust and count most occurences etc.) 
 
-**create-dump-for-values.py** creates the dump that is needed for the creation of the dataset to look up values for the entities and the given properties.
+### Generate dataset
+**make-dataset.py** creates the dataset. Using **wd-query.py** it calls the Wikidata endpoint to get classes used by items using the Wikidata properties in *wdproperties.py*. The resulting triples are passed to *data-structure.py*, which sorts them by property-object pairs to limit the possible triples to 50. **create-json.py** will write the resulting dataset and its annotation to a json file that can be used.
+
+tl;dr
+- make sure **properties/properties-unambiguous.txt** exists
+- run **make-dataset.py**
+
 
 ## Mapping 
 
