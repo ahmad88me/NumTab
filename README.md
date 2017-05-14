@@ -9,10 +9,6 @@ The created files can be found in **gold/numtab.txt**, where each DBpedia proper
 
 **Specifications of NumTab**
 
-![CC-BY-SA Logo](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
 | Metrics		 		    |      |
 | --------------------------|:----:|
 | Properties used  		    | 22   |
@@ -87,4 +83,8 @@ The goal for NumTab is to archive a dataset, where the values in one column are 
 That means, we cluster all triples, that use the given properties by their types. We limit the classes, to such that have between 100 and 5000 instances using [Wikidata's SPARQL endpoint](https://query.wikidata.org/) and select 20 of those clusters. For each cluster, we look at the most common property-object pair. In the previous mentioned example of sculptures, that could be all *sculptures* (`Q860861`) that are *part of the movement* (`P135`) *Art Nouveau* (`Q34636`). From all items sharing the most common property-object pair, we extract the numerical value for the one of our 17 properties and add them to a column labelled by the corresponding DBpedia property.
 
 
+
+![CC-BY-SA Logo](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
+
+This dataset *NumTab* is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
