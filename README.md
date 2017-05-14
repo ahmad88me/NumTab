@@ -18,16 +18,7 @@ The created files can be found in **gold/numtab.txt**, where each DBpedia proper
 | Min values/bag 			| 4552 |
 
 
-
 **Used Properties and occurence**
-
-| --------------------------|:----:|
-| http://dbpedia.org/ontology/numberOfPages | 22   |
-| http://dbpedia.org/ontology/routeNumber | 20   |
-| http://dbpedia.org/ontology/postalCode': 7, 'http://dbpedia.org/ontology/numberOfEpisodes | 224  |
-| Median values/bag 		| 216  |
-| Min values/bag 			| 5    |
-| Min values/bag 			| 4552 |
 
 |DBpedia property 		   | Number of bag of values |
 |--------------------------|:-----------------------:|
