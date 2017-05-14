@@ -7,8 +7,9 @@ We base our approach on a given number of properties from DBpedia and disambigua
 
 The created files can be found in **gold/numtab.txt**, where each DBpedia property is followed by the number of rows of numerical values and the respective Wikidata values. In **gold/files** each bag of values gets a CSV file with an abritary ID and the property URI, encoded with + for each / in the URI. The files contain only the values. In those files, values for the property `routeNumber` are missing since they mix numerical and textual values.
 
-** Specifications of NumTab **
+**Specifications of NumTab**
 
+| Metrics		 		    |      |
 | --------------------------|:----:|
 | Properties used  		    | 22   |
 | Max occurrences/property  | 20   |
