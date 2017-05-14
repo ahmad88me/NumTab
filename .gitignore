@@ -1,2 +1,4 @@
 mapping/numerical-dump.txt
 gold/*
+.DS_Store
+*.pyc

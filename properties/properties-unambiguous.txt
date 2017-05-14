@@ -17,9 +17,7 @@
 "http://dbpedia.org/ontology/numberOfEpisodes":"P1113",
 "http://dbpedia.org/ontology/shipBeam":"P2261",
 "http://dbpedia.org/ontology/numberOfPages":"P1104",
-"http://dbpedia.org/ontology/serviceStartYear":"P580",
 "http://dbpedia.org/ontology/numberOfEmployees":"P1128",
-"http://dbpedia.org/ontology/serviceEndYear":"P582",
 "http://dbpedia.org/ontology/oclc":"P243",
 "http://dbpedia.org/ontology/routeNumber":"P1824",
 "http://dbpedia.org/ontology/topSpeed":"P2052",
@@ -27,4 +25,5 @@
 "http://dbpedia.org/ontology/budget":"P2769",
 "http://dbpedia.org/ontology/gross":"P3618",
 "http://dbpedia.org/ontology/capacity":"P1083",
+"http://dbpedia.org/ontology/number":"P1618",
 "http://dbpedia.org/ontology/width":"P2049"}
