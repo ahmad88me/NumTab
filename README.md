@@ -9,6 +9,10 @@ The created files can be found in **gold/numtab.txt**, where each DBpedia proper
 
 **Specifications of NumTab**
 
+![CC-BY-SA Logo](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
 | Metrics		 		    |      |
 | --------------------------|:----:|
 | Properties used  		    | 22   |
@@ -53,6 +57,7 @@ Mapping and generation of Numtab can be run independently.
 
 ### Mapping
 *The mapping takes approximately 80 GB of memory (since the dump is loaded in memory) and 10 GB for the file created.*
+
 In order to do the mapping more efficently, we create a dump that's purely numerical with the script **mapping/numerical-dump.py**. You will need to download a *.nt.bz2* file, containing a [Wikidata dump provided by Wikimedia](https://dumps.wikimedia.org/wikidatawiki/). The created text file will contain a python dictonary with a version of the triples, that have numerical objects. Based on that **mapping/map-properties.py** maps DBpedia properties to Wikidata, assumes Wikidata and DBpedia share a set of triples. It reads from *properties.csv* and writes the mapping to *wdproperties.py*
 
 tl;dr
