@@ -3,13 +3,12 @@ NumTab
 
 The following code is used for the creation of a dataset focusing on Numerical Values for, among other things, disambiguation of CSV tables to RDF. 
 
-We base our approach on a given number of properties from DBpedia and disambiguate those to Wikidata properties, semi-automatically. We use values from Wikidata and keep the DBpedia properties. 
+We base our approach on a given number of properties from DBpedia and disambiguate those to Wikidata properties, semi-automatically. We use values from Wikidata and keep the DBpedia properties. We limit the number of bags of values (columns) per property to a maximum of twenty.
 
 The created files can be found in **gold/numtab.txt**, where each DBpedia property is followed by the number of rows of numerical values and the respective Wikidata values. In **gold/files** each bag of values gets a CSV file with an abritary ID and the property URI, encoded with + for each / in the URI. The files contain only the values. In those files, values for the property `routeNumber` are missing since they mix numerical and textual values.
 
 ** Specifications of NumTab **
 
-| 					        |      |
 | --------------------------|:----:|
 | Properties used  		    | 22   |
 | Max occurrences/property  | 20   |
@@ -22,7 +21,38 @@ The created files can be found in **gold/numtab.txt**, where each DBpedia proper
 
 **Used Properties and occurence**
 
-{'http://dbpedia.org/ontology/numberOfPages': 5, 'http://dbpedia.org/ontology/routeNumber': 11, 'http://dbpedia.org/ontology/postalCode': 7, 'http://dbpedia.org/ontology/numberOfEpisodes': 18, 'http://dbpedia.org/ontology/runtime': 14, 'http://dbpedia.org/ontology/elevation': 20, 'http://dbpedia.org/ontology/deathYear': 5, 'http://dbpedia.org/ontology/topSpeed': 2, 'http://dbpedia.org/ontology/populationTotal': 20, 'http://dbpedia.org/ontology/width': 20, 'http://dbpedia.org/ontology/oclc': 11, 'http://dbpedia.org/ontology/height': 20, 'http://dbpedia.org/ontology/length': 20, 'http://dbpedia.org/ontology/numberOfEmployees': 5, 'http://dbpedia.org/ontology/numberOfGoals': 3, 'http://dbpedia.org/ontology/number': 1, 'http://dbpedia.org/ontology/numberOfSeasons': 9, 'http://dbpedia.org/ontology/numberOfMatches': 3, 'http://dbpedia.org/ontology/activeYearsEndYear': 2, 'http://dbpedia.org/ontology/activeYearsStartYear': 2, 'http://dbpedia.org/ontology/capacity': 7, 'http://dbpedia.org/ontology/areaCode': 19}
+| --------------------------|:----:|
+| http://dbpedia.org/ontology/numberOfPages | 22   |
+| http://dbpedia.org/ontology/routeNumber | 20   |
+| http://dbpedia.org/ontology/postalCode': 7, 'http://dbpedia.org/ontology/numberOfEpisodes | 224  |
+| Median values/bag 		| 216  |
+| Min values/bag 			| 5    |
+| Min values/bag 			| 4552 |
+
+|DBpedia property 		   | Number of bag of values |
+|--------------------------|:-----------------------:|
+|http://dbpedia.org/ontology/numberOfPages | 5 |
+|http://dbpedia.org/ontology/routeNumber | 11|
+|http://dbpedia.org/ontology/postalCode | 7|
+|http://dbpedia.org/ontology/numberOfEpisodes | 18 |
+|http://dbpedia.org/ontology/runtime | 14 |
+|http://dbpedia.org/ontology/elevation | 20 |
+|http://dbpedia.org/ontology/deathYear | 5 |
+|http://dbpedia.org/ontology/topSpeed | 2 |
+|http://dbpedia.org/ontology/populationTotal | 20 |
+|http://dbpedia.org/ontology/width | 20 |
+|http://dbpedia.org/ontology/oclc | 11 |
+|http://dbpedia.org/ontology/height | 20 |
+|http://dbpedia.org/ontology/length | 20 |
+|http://dbpedia.org/ontology/numberOfEmployees | 5 |
+|http://dbpedia.org/ontology/numberOfGoals | 3 |
+|http://dbpedia.org/ontology/number | 1 |
+|http://dbpedia.org/ontology/numberOfSeasons | 9 |
+|http://dbpedia.org/ontology/numberOfMatches | 3 |
+|http://dbpedia.org/ontology/activeYearsEndYear | 2 |
+|http://dbpedia.org/ontology/activeYearsStartYear | 2 |
+|http://dbpedia.org/ontology/capacity | 7 |
+|http://dbpedia.org/ontology/areaCode | 19|
 
 
 ## Using the code
