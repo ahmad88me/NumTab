@@ -57,8 +57,8 @@ Mapping and generation of Numtab can be run independently.
 - The dump used for the dataset included in the repo can be found [here](https://dumps.wikimedia.org/wikidatawiki/entities/20170503/)
 
 ### Useful links
- - Source code to DSL approach is available [here](https://github.com/minhptx/iswc-2016-semantic-labeling) together with datasets used for evaluation
- - Source code to MSL approach is available [here](https://github.com/sebneu/number_labelling)
+ - Source code for DSL approach is available [here](https://github.com/minhptx/iswc-2016-semantic-labeling) together with datasets used for evaluation
+ - Source code for MSL approach is available [here](https://github.com/sebneu/number_labelling)
 
 ### Mapping
 *The mapping takes approximately 80 GB of memory (since the dump is loaded in memory) and 10 GB for the file created.*
