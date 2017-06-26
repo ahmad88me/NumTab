@@ -51,13 +51,18 @@ The created files can be found in **gold/numtab.txt**, where each DBpedia proper
 
 Mapping and generation of Numtab can be run independently.
 
+### Requirements
+- Python 2.7.12
+- *SPARQLWrapper* and *pandas* available via pip
+- The dump used for the dataset included in the repo can be found [here](https://dumps.wikimedia.org/wikidatawiki/entities/20170503/)
+
 ### Mapping
 *The mapping takes approximately 80 GB of memory (since the dump is loaded in memory) and 10 GB for the file created.*
 
-In order to do the mapping more efficently, we create a dump that's purely numerical with the script **mapping/numerical-dump.py**. You will need to download a *.nt.bz2* file, containing a [Wikidata dump provided by Wikimedia](https://dumps.wikimedia.org/wikidatawiki/). The created text file will contain a python dictonary with a version of the triples, that have numerical objects. Based on that **mapping/map-properties.py** maps DBpedia properties to Wikidata, assumes Wikidata and DBpedia share a set of triples. It reads from *properties.csv* and writes the mapping to *wdproperties.py*
+In order to do the mapping more efficently, we create a dump that's purely numerical with the script **mapping/numerical-dump.py**. You will need to download a *.nt.bz2* file, containing a [Wikidata dump provided by Wikimedia](https://dumps.wikimedia.org/wikidatawiki/entities/). The created text file will contain a python dictonary with a version of the triples, that have numerical objects. Based on that **mapping/map-properties.py** maps DBpedia properties to Wikidata, assumes Wikidata and DBpedia share a set of triples. It reads from *properties.csv* and writes the mapping to *wdproperties.py*
 
 tl;dr
-- Download Wikidata *.nt.bz2* dump from [here](https://dumps.wikimedia.org/wikidatawiki/)
+- Download Wikidata *-truthy-BETA.nt.bz2 * dump from [here](https://dumps.wikimedia.org/wikidatawiki/entities/)
 - run numerical-dump.py (careful, will eat lots of memory)
 - run map-properties.py (careful, will eat lots of memory)
 - currently writes to *properties/wd-properties.py* and *properties/log.txt* in a very bad format, adjust this file so it looks like *properties-unambigious.txt* (we used the log file to adjust and count most occurences etc.) 
