@@ -3,7 +3,7 @@ rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
 dcat: http://www.w3.org/ns/dcat#
 prov: http://www.w3.org/ns/prov#
 
-:NumTab a dcat:Download ;
+:NumTab a dcat:Dataset ;
 	dct:title "NumTab"@en;
 	dct:description "NumTab contains bags of numerical values"@en;
 	dct:publisher "Emilia Kacprzak, Lucie-Aimée Kaffee, Kemele M. Endris, José Gimenez-Garcia"@en;
