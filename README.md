@@ -3,6 +3,8 @@ NumTab
 
 The following code is used for the creation of a dataset focusing on Numerical Values for, among other things, disambiguation of CSV tables to RDF. This version of NumTab was used to evaluate [DSL](https://github.com/minhptx/iswc-2016-semantic-labeling) and [MSL](https://github.com/sebneu/number_labelling).
 
+[![DOI](https://zenodo.org/badge/89721757.svg)](https://zenodo.org/badge/latestdoi/89721757)
+
 We base our approach on a given number of properties from DBpedia and disambiguate those to Wikidata properties, semi-automatically, a detailed descritption of that process is given in the [Mapping section](## Mapping). We use values from Wikidata and keep the DBpedia properties. We limit the number of bags of values (columns) per property to a maximum of twenty.
 
 The created files can be found in **gold/numtab.txt**, where each DBpedia property is followed by the number of rows of numerical values and the respective Wikidata values. In **gold/files/files-csv** each bag of values gets a CSV file with an abritary ID and the property URI, encoded with + for each / in the URI. The files contain only the values. In those files, values for the property `routeNumber` are missing since they mix numerical and textual values.
