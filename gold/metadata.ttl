@@ -1,0 +1,22 @@
+@base <https://rawgit.com/luciekaffee/NumTab/master/gold/metadata.ttl> .
+@prefix : <https://rawgit.com/luciekaffee/NumTab/master/gold/metadata.ttl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+
+
+:NumTab a dcat:Dataset ;
+	dct:title "NumTab"@en;
+	dct:description "NumTab contains bags of numerical values"@en;
+	dct:publisher "Emilia Kacprzak, Lucie-Aimée Kaffee, Kemele M. Endris, José Gimenez-Garcia"@en;
+	dcat:keyword "numerical"@en;
+	dct:license <https://creativecommons.org/licenses/by-sa/2.0/>;
+	dct:created "2017-05-13T00:00:00+00:00";
+	dcat:downloadURL <https://github.com/luciekaffee/NumTab/archive/v0.1.zip>;
+	prov:specializationOf <https://github.com/luciekaffee/NumTab/tree/master/gold/files-csv> ;
+	prov:wasDerivedFrom <https://github.com/sebneu/number_labelling/blob/master/props.csv>;
+	prov:wasDerivedFrom <https://dumps.wikimedia.org/wikidatawiki/entities/20170503/>;
+	dcat:format [ rdfs:label "CSV" ];
+	dcat:mediaType "text/csv" .
